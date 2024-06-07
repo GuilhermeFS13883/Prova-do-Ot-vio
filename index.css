@@ -1,0 +1,52 @@
+body {
+    border: 0;
+    margin: 0;
+    height: 100vh;
+    margin: 5px;
+}
+
+form {
+    background-color: rgb(106, 223, 106);
+    width: 40%;
+    border-collapse: collapse;
+    display: flex;
+    left: 29%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 4%;
+}
+
+table {
+    position: relative;
+    height: 40%;
+    width: 100vw;
+    background-color: #daf1be;
+    top: 10%;
+}
+
+th, td {
+    border: 1px solid rgb(32, 151, 2);
+    padding: 8px;
+    border-radius: 5px;
+    width: 0%;
+   
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #000000;
+    color: #eeeeee;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00b33c;
+}
+
+#limparTabela { 
+    position: relative;
+    left: 47%;
+    top: 10%;
+}
